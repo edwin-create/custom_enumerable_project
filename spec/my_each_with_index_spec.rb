@@ -40,8 +40,8 @@ RSpec.describe Enumerable do
       it 'contains the elements and indices of the receiving array' do
         expect(enumerable.my_each_with_index.to_a).to eq(
           [[1, 0], [1, 1], [2, 2],
-          [3, 3], [5, 4], [8, 5],
-          [13, 6], [21, 7], [34, 8]]
+           [3, 3], [5, 4], [8, 5],
+           [13, 6], [21, 7], [34, 8]]
         )
       end
     end
